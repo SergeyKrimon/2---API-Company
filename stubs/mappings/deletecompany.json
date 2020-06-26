@@ -1,0 +1,19 @@
+{
+    "request": {
+     "method": "POST",
+     "url": "/company/40c01983-5080-4119-829d-2e7dba552972",
+     "headers" : {
+       "Authorization" : {
+         "contains" : "Baerer"
+       }
+
+    }
+     
+   },
+ 
+   "response": {
+     "status": 200,
+     "bodyFileName": "deletecompany.json"
+   }
+ }
+ 

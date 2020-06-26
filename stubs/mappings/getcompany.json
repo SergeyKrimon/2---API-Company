@@ -1,0 +1,16 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/company/55c25606-c91a-44ee-ae87-750abd90dc67",
+      "headers" : {
+        "Authorization" : {
+          "contains" : "Baerer"
+        }
+      }
+    },
+
+    "response": {
+      "status": 200,
+      "bodyFileName": "getcompany.json"
+    }
+  }

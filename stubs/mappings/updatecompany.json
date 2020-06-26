@@ -1,0 +1,24 @@
+{
+    "request": {
+     "method": "PUT",
+     "url": "/company/1091538f-de79-4fbf-b4d0-30dd7718373f",
+     "headers" : {
+       "Authorization" : {
+         "contains" : "Baerer"
+       }
+     },
+     "bodyPatterns":[
+       {
+          "matchesJsonPath":"$.name"
+         
+       }
+     ]
+     
+   },
+ 
+   "response": {
+     "status": 200,
+     "bodyFileName": "updatecompany.json"
+   }
+ }
+ 

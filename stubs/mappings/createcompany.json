@@ -1,0 +1,25 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/company",
+      "headers" : {
+        "Authorization" : {
+          "contains" : "Baerer"
+        }
+      },
+      "bodyPatterns":[
+        {
+           "matchesJsonPath":"$.name"
+           
+          }
+           
+     ]
+    
+      },
+      "response": {
+      "status": 200,
+      "bodyFileName": "createcompany.json"
+    }
+  }
+  
+  

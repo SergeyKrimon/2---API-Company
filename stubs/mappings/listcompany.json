@@ -1,0 +1,16 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/company",
+       "headers" : {
+        "Authorization" : {
+          "contains" : "Baerer"
+        }
+      }
+    },
+
+    "response": {
+      "status": 200,
+      "bodyFileName": "listcompany.json"
+    }
+  }
